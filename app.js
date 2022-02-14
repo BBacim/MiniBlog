@@ -4,8 +4,9 @@ require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
-var _ = require("lodash");
+//var _ = require("lodash");
 const mongoose = require("mongoose");
+
 
 const USER= process.env.USER;
 const PASSWORD= process.env.PASSWORD;
